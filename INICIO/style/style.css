@@ -1,0 +1,58 @@
+*{padding: 0px;margin: 0px;}
+
+.box1 {
+    .menu{
+        padding: 30px;
+        text-align: right;
+        padding-right: 400px;
+        img{
+            object-fit: cover;
+            text-align: left;
+            padding-right: 800px;
+            width: 120px;
+            max-height: 30px;
+        }
+    }
+
+    
+    .menu > #entrar {
+        text-decoration: none;
+        border: 1px rgb(58, 77, 252) solid;
+        border-radius: 50px;
+        padding: 15px 25px;
+        margin: 5px;
+        font-weight: 500;
+    }
+    .menu > #cadastre {
+        text-decoration: none;
+        border: 1px rgb(58, 77, 252) solid;
+        border-radius: 50px;
+        padding: 15px 25px;
+        margin: 5px;
+        font-weight: 500;
+    }
+
+    #entrar{
+        color: rgb(58, 77, 252);}
+    #entrar:hover {background-color: rgba(104, 150, 177, 0.418);}
+    #entrar:active{background-color: rgba(71, 101, 119, 0.418);}
+    
+    #cadastre{
+        color: white;
+        background-color: rgb(58, 77, 252);}
+    #cadastre:hover {background-color: blue;}
+    #cadastre:active{color: rgb(27, 6, 223);}
+
+    .conteudo{
+        
+        display: flex;
+        margin: 50px auto;
+        width: 1400px;
+        height: 600px;
+    }
+    .conteudo > h1 {
+        font-size: 55px;
+        font-weight: 200;
+        padding: 8px 10px;
+    }
+}

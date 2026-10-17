@@ -1,0 +1,91 @@
+*{margin: 0;padding: 0;}
+body{
+    background-color: white;
+}
+.area-logo > a > img {
+    margin: 30px;
+    object-fit: cover;
+    width: 180px;
+    max-height: 40px;
+}
+        
+        /* Inicio do Formulario */
+.area-do-login {
+    margin: 50px auto;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 1px silver solid;
+    border-radius: 8px;
+    width: 470px;
+    height: 700px;
+}
+.area-do-login > h1 {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 35px;
+}
+.area-do-login > p {
+    margin: 30px;
+    font-size: 16px;
+}
+.area-do-login > p > a {
+    text-decoration: none;
+    color: (58, 77, 252);
+}
+
+.form1 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+
+.form1 > input {
+    padding: 15px;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 10px;
+}
+.form1 > input:focus {
+    border: 2px rgb(0, 0, 0) solid;
+}
+.form1 > input:hover {
+    border: 2px rgb(0, 0, 0) solid;
+}
+.form1 > input:user-invalid {
+     border-color: red;
+}
+
+
+.form1 > label {
+    color: rgb(75, 75, 75);
+    font-size: 16px;
+    margin: -10px 10px;
+}
+
+
+
+.form1 > button {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 25px;
+    background-color: rgb(58, 77, 252);
+    color: white;
+    font-weight: bolder;
+}
+.form1 > button:hover {
+    background-color: rgb(15, 32, 192);
+}
+.form1 > button:active {
+    color: rgb(86, 96, 235);
+}

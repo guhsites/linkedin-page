@@ -1,0 +1,74 @@
+*{margin: 0;padding: 0;}
+body{
+    background-color: rgb(240, 239, 239);
+}
+.area-logo > a > img {
+    padding-left: 400px;
+    margin: 30px;
+    object-fit: cover;
+    width: 180px;
+    max-height: 40px;
+}
+
+.caixa {
+
+}
+.caixa > h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: -30px;
+    font-weight: 100;
+}
+.area-do-formulario {
+    background-color: white;
+    border-radius: 8px;
+    width: 410px;
+    height: 600px;
+    margin: 50px auto;
+}
+.area-do-formulario > p {
+    padding-top: 280px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.area-do-formulario > p > a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.form1 {
+    padding: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+.form1 > input {
+    padding: 8px;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.form1 > input:hover {
+    border: 2px rgb(0, 0, 0) solid;
+}
+.form1 > input:user-invalid {
+     border-color: red;
+}
+
+
+.form1 > button {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 25px;
+    background-color: rgb(58, 77, 252);
+    color: white;
+    font-weight: bolder;
+}
+.form1 > button:hover {
+    background-color: rgb(15, 32, 192);
+}
+.form1 > button:active {
+    color: rgb(86, 96, 235);
+}
