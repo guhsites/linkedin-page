@@ -13,7 +13,7 @@ Technologies
 
 Getting Started
 1. Clone this repository.
-2. Open `index.html` in your browser.
+2. Open the link: "https://guhsites.github.io/linkedin-page/" in your browser.
 
 Project Status
 In progress as a front-end learning project.
